@@ -1,0 +1,20 @@
+create table ` manpower_resource`
+(
+	id int auto_increment primary key comment '主键自增',
+	position varchar(100) null comment '职位',
+	salary varchar(1000) null comment '月薪',
+	company varchar(500) null comment '公司',
+	company_addr varchar(1000) null comment '公司地址',
+	position_info varchar(1000) null comment '职位信息',
+	company_scale varchar(1000) null comment '公司规模',
+	company_web varchar(1000) null comment '公司官网',
+	company_nature varchar(500) null comment '公司性质',
+	company_bussiness varchar(1000) null comment '公司主营业务',
+	experience varchar(1000) null comment '经验要求',
+	education varchar(500) null comment '学历',
+	recruit_number varchar(500) null comment '招聘人数',
+	web varchar(500) null comment '采集网站',
+	city varchar(100) null comment '城市'
+)engine = innoDB default charset ='utf8'
+comment '人力需求'
+;
